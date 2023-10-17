@@ -1,0 +1,16 @@
+body {
+
+    background: rgb(3, 97, 100);
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(9, 33, 130);
+}
+.gallery:hover{
+    text-decoration: underline;
+    color: burlywood;
+}

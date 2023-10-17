@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Roboto:ital,wght@0,100;0,300;0,500;1,500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #111111;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    
+}
+.navbar{
+    background: #11111172;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    
+}
+.navbar-brand{
+    font-size: 25px;
+    color: #f3c623 !important;
+}
+.nav-text{
+    color: white !important;
+}
+.custom-card {
+    height: max-content;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+.about-sections{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+.about-section-title{
+    font-size: 35px;
+}
+.custom-card-left,
+.custom-card-right {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: inherit;
+}
+
+.custom-card-left img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    transition: all 0.5s ease-in-out;
+}
+
+.custom-card-right {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.custom-card-left img:hover {
+    transform: scale(1.05);
+
+
+}
+
+@media screen and (max-width:1100px) {
+    .custom-card {
+        flex-direction: column;
+    }
+
+    .custom-card-left,
+    .custom-card-right,.about-sections{
+        width: 100%;
+
+    }
+
+}
+
+.custom-card-Btn {
+    color: #f3c623;
+    border-radius: 8px;
+    border: 1px solid #f3c623;
+    padding: 10px;
+    background: transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+.custom-card-tag {
+    color: #f3c623;
+}
+
+.custom-card-Btn:hover {
+    color: #a0831a;
+    border-color: #a0831a;
+}
+.card{
+    background-color: transparent;
+    border-radius: 8px !important;
+    border: none;
+    
+}
+.card-img-wrap{
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: inherit;
+}
+
+.card-img-wrap img:hover{
+    transform: scale(1.05);
+}
+
+.card-img-wrap img{
+    object-fit: cover;
+    transition: all 0.5s ease-in-out;
+}

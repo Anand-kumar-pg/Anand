@@ -1,0 +1,13 @@
+.B-s{
+    height: 600px;
+    width: 100%;
+    background: rgb(169, 186, 255);
+}
+
+.form {
+    width: 420px;
+    width: 400px;
+    padding: 20px 14px 10px 14px;
+    border-radius: 10px;
+    height: 336px;
+}
